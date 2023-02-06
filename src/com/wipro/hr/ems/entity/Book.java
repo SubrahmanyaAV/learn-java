@@ -4,12 +4,14 @@ public class Book {
 	
 	private int bid;
 	private String bname;
+	private String category;
 	
 	public Book(int bid, String bname) {
 		super();
 		this.bid = bid;
 		this.bname = bname;
 	}
+	
 	public int getBid() {
 		return bid;
 	}
